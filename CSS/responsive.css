@@ -1,0 +1,30 @@
+@media screen and (max-width:400px){
+    .nav-container{
+    
+        flex-direction: column;
+    
+    
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item-container a{
+        margin: 20px;
+    }
+.Follow-btn{
+    width: 100%;
+    margin-bottom: 10px;
+
+    
+}
+
+.banner-container{
+    flex-direction: column;
+}
+.banner-text, .banner-img{
+
+    width: 100%;
+    
+}

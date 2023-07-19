@@ -1,0 +1,136 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    background-color: rgb(241, 241, 241);
+}
+.nav-container{
+    
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+
+
+.logo-container{
+    
+    display: flex;
+    width: 50%;
+
+}
+.logo-container p{
+    font-size: 30px;
+}
+.word-color{
+    color: #f00808;
+}
+.logo-container img{
+    
+   width: 50px;
+   object-fit: contain;
+   margin-right: 10px;
+    
+
+
+}
+.nav-item-container{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.Follow-btn{
+    background-color: rgb(250, 245, 234);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.banner-container{
+
+    margin: 10px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    text-align: center;
+    background-color: #cadcee;
+    
+
+}
+
+.banner-text{
+
+    width: 50%;
+    text-align: center;
+}
+.banner-img{
+ 
+    width: 50%;
+}
+
+.banner-img img{
+    width: 100%;
+
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.banner-text p{
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 70px;
+}
+
+.banner-text h1{
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.icons-container{
+    margin-bottom: 20px;
+    width: 50%;
+    margin: 0 auto 10px;
+}
+
+
+.fa-regular, .fa-solid{
+    font-size: 20px;
+}
+ 
+
+.banner-button{
+    background-color: #63859c;
+    padding: 10px 20px;
+    border: 2px solid #9376e0;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.item{
+    display: flex;
+    text-align: center;
+}
