@@ -4,6 +4,7 @@
 
 *{
     box-sizing: border-box;
+    
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -51,7 +52,8 @@ nav{
     width: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    margin-right: 70px;
 
 }
 .nav-item-container a{
@@ -69,6 +71,7 @@ nav{
 
 }
 
+
 .banner-container{
 
     margin: 10px auto 0;
@@ -76,15 +79,17 @@ nav{
     min-height: 50px;
     display: flex;
     text-align: center;
-    background-color: #cadcee;
+    background-color: #cee6ff;
     
 
 }
 
 .banner-text{
-
+    margin-top: 50px;
     width: 50%;
     text-align: center;
+    
+    
 }
 .banner-img{
  
@@ -98,14 +103,14 @@ nav{
     object-fit: cover;
 }
 
-.banner-text p{
+.banner-text h1{
     background-image: linear-gradient(to bottom,#9376e0,#e893cf);
     color: transparent;
     -webkit-background-clip: text;
     font-size: 70px;
 }
 
-.banner-text h1{
+.banner-text p{
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
 
@@ -133,4 +138,110 @@ nav{
 .item{
     display: flex;
     text-align: center;
+}
+/* odd */
+
+.banner{ 
+    display: flex;
+    align-items: center;
+    background-position: center;
+
+    margin: 10px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    text-align: center;
+    background-color: #cee6ff;
+}
+
+.banner-txt{
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+    align-items: center;
+    
+
+    margin-top: 50px;
+    width: 50%;
+}
+
+.about-photo{ 
+    
+    
+    
+    margin: 60px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.itxt{
+    gap: 200px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 10px;
+    padding: 10px 20px;
+}
+
+.gm{
+    
+    display: flex;
+    
+    align-items: center;
+    max-height: 50%;
+    
+    gap: 20px;
+    
+
+}
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+}
+.our{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 200px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+
+.last-txt{
+    
+    justify-content: center;
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.clr{
+    background-color: bisque;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 }
